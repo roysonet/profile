@@ -10,7 +10,7 @@ h1{
 .red-color{
     color: red;
 }
-section{
+.flexible{
     display: flex;
     margin-bottom: 10px;
 }
@@ -40,4 +40,30 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
+    margin-bottom: 10px;
+}
+.last-banner{
+    background-image: url(https://files.123freevectors.com/wp-content/original/148617-glowing-red-and-white-wave-background-graphic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    margin-bottom: 10px;
+}
+.xp-item{
+    width: 50%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 10%;
+    box-shadow: 10px 10px 40px rgb(221, 113, 94);
+    border-radius: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 5%;
+    border-left: red solid 10px;
+}
+
+footer p{
+    text-align: center;
+    color: red;
+    text-shadow: rgb(221, 113, 94);
 }
