@@ -12,6 +12,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 10px;
 }
 .half-width{
     width: 50%;
@@ -38,4 +39,5 @@ section{
     background-image: url(images/bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: right;
 }
